@@ -1,0 +1,104 @@
+*{
+  text-align: center;
+
+ 
+}
+body{
+  margin-top: 300px;
+ 
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f4f4f9;
+  font-family: 'Arial', sans-serif;
+
+
+}
+
+h1 {
+  font-size: 2em;
+  color: green;
+  margin-bottom: 20px;
+}
+
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+
+input {
+  padding: 10px;
+  width: 250px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  font-size: 1em;
+  outline: none;
+  transition: border 0.3s;
+}
+
+input:focus {
+  border: 1px solid #4CAF50;
+}
+
+
+button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+
+.loading {
+  font-size: 1.2em;
+  color: white;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+
+.user-info {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.user-info h2 {
+  font-size: 1.5em;
+  color: green;
+  margin-bottom: 10px;
+}
+
+.user-info p {
+  font-size: 1.1em;
+  margin: 5px 0;
+}
+
+.user-info strong {
+  color: #4CAF50;
+}
